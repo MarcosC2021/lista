@@ -1,11 +1,27 @@
-# Lista C
+# Lista
 
-Projeto de lista em C.
+## Installing dependencies
 
-## Descrição
+Run `npm ci` to install the packages listed in `package-lock.json`.
 
-Este é um projeto de lista implementado em linguagem C.
+## Running the Express backend
 
-## Como usar
+```bash
+cd backend
+npm start
+```
 
-Compile e execute o projeto conforme necessário. 
+## Running the React frontend
+
+```bash
+cd frontend
+npm start
+```
+
+## Docker
+
+Use `docker-compose.yml` to run everything in containers:
+
+```bash
+docker compose up
+```
